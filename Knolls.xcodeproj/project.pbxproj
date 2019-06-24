@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF15EC3E22C0524600CB664D /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15EC3D22C0524600CB664D /* Goal.swift */; };
+		DF15EC4122C052B300CB664D /* GoalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15EC4022C052B300CB664D /* GoalRow.swift */; };
+		DF15EC4522C0F52200CB664D /* AddGoalName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15EC4422C0F52200CB664D /* AddGoalName.swift */; };
 		DF3E409D22B12FBD005B3BEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3E409C22B12FBD005B3BEF /* AppDelegate.swift */; };
 		DF3E409F22B12FBD005B3BEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3E409E22B12FBD005B3BEF /* SceneDelegate.swift */; };
 		DF3E40A222B12FBD005B3BEF /* Knolls.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF3E40A022B12FBD005B3BEF /* Knolls.xcdatamodeld */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF15EC3D22C0524600CB664D /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		DF15EC4022C052B300CB664D /* GoalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalRow.swift; sourceTree = "<group>"; };
+		DF15EC4422C0F52200CB664D /* AddGoalName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalName.swift; sourceTree = "<group>"; };
 		DF3E409922B12FBD005B3BEF /* Knolls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knolls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3E409C22B12FBD005B3BEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF3E409E22B12FBD005B3BEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +57,7 @@
 		DF3E40BD22B12FC1005B3BEF /* KnollsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnollsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3E40C122B12FC1005B3BEF /* KnollsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnollsUITests.swift; sourceTree = "<group>"; };
 		DF3E40C322B12FC1005B3BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF3E40CF22B12FD3005B3BEF /* Knolls.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Knolls.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +85,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF15EC3C22C0521C00CB664D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF15EC3D22C0524600CB664D /* Goal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF15EC3F22C0528E00CB664D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DF15EC4022C052B300CB664D /* GoalRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DF15EC4222C0F23A00CB664D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DF15EC4322C0F24400CB664D /* AddGoal */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		DF15EC4322C0F24400CB664D /* AddGoal */ = {
+			isa = PBXGroup;
+			children = (
+				DF15EC4422C0F52200CB664D /* AddGoalName.swift */,
+			);
+			path = AddGoal;
+			sourceTree = "<group>";
+		};
 		DF3E409022B12FBD005B3BEF = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +140,10 @@
 		DF3E409B22B12FBD005B3BEF /* Knolls */ = {
 			isa = PBXGroup;
 			children = (
+				DF15EC4222C0F23A00CB664D /* Screens */,
+				DF15EC3F22C0528E00CB664D /* Components */,
+				DF15EC3C22C0521C00CB664D /* Models */,
+				DF3E40CF22B12FD3005B3BEF /* Knolls.entitlements */,
 				DF3E409C22B12FBD005B3BEF /* AppDelegate.swift */,
 				DF3E409E22B12FBD005B3BEF /* SceneDelegate.swift */,
 				DF3E40A322B12FBD005B3BEF /* ContentView.swift */,
@@ -270,9 +313,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF15EC4522C0F52200CB664D /* AddGoalName.swift in Sources */,
 				DF3E409D22B12FBD005B3BEF /* AppDelegate.swift in Sources */,
+				DF15EC4122C052B300CB664D /* GoalRow.swift in Sources */,
 				DF3E409F22B12FBD005B3BEF /* SceneDelegate.swift in Sources */,
 				DF3E40A422B12FBD005B3BEF /* ContentView.swift in Sources */,
+				DF15EC3E22C0524600CB664D /* Goal.swift in Sources */,
 				DF3E40A222B12FBD005B3BEF /* Knolls.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,7 +484,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Knolls/Knolls.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "Knolls/Preview\\ Content";
 				DEVELOPMENT_TEAM = 7L7B5Q5HPK;
 				ENABLE_PREVIEWS = YES;
@@ -449,6 +497,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.leef.Knolls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,7 +507,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Knolls/Knolls.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "Knolls/Preview\\ Content";
 				DEVELOPMENT_TEAM = 7L7B5Q5HPK;
 				ENABLE_PREVIEWS = YES;
@@ -469,6 +520,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.leef.Knolls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
