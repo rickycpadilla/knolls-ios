@@ -10,16 +10,14 @@ import SwiftUI
 
 struct AddGoalName : View {
 	var body: some View {
-		NavigationView {
-			VStack(alignment: .leading) {
-				TextField(.constant("Goal name"))
-				TextField(.constant("Goal why"))
-				Button(action: {print("button")}) {
-					Text("next")
-				}
+		VStack(alignment: .leading) {
+			TextField(.constant("Goal name"))
+			TextField(.constant("Goal why"))
+			Button(action: {print("button")}) {
+				Text("Next")
 			}
-			.padding()
 		}
+		.padding()
 	}
 }
 

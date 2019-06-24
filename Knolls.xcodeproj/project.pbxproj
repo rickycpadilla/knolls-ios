@@ -10,6 +10,10 @@
 		DF15EC3E22C0524600CB664D /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15EC3D22C0524600CB664D /* Goal.swift */; };
 		DF15EC4122C052B300CB664D /* GoalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15EC4022C052B300CB664D /* GoalRow.swift */; };
 		DF15EC4522C0F52200CB664D /* AddGoalName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15EC4422C0F52200CB664D /* AddGoalName.swift */; };
+		DF15EC4722C0F83F00CB664D /* AddGoalKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15EC4622C0F83F00CB664D /* AddGoalKind.swift */; };
+		DF15EC4922C0FA6000CB664D /* AddGoalCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15EC4822C0FA6000CB664D /* AddGoalCounter.swift */; };
+		DF15EC4B22C0FBB600CB664D /* AddGoalsMilestones.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15EC4A22C0FBB600CB664D /* AddGoalsMilestones.swift */; };
+		DF15EC4D22C0FCB800CB664D /* AddGoalDeadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF15EC4C22C0FCB800CB664D /* AddGoalDeadline.swift */; };
 		DF3E409D22B12FBD005B3BEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3E409C22B12FBD005B3BEF /* AppDelegate.swift */; };
 		DF3E409F22B12FBD005B3BEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3E409E22B12FBD005B3BEF /* SceneDelegate.swift */; };
 		DF3E40A222B12FBD005B3BEF /* Knolls.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF3E40A022B12FBD005B3BEF /* Knolls.xcdatamodeld */; };
@@ -42,6 +46,10 @@
 		DF15EC3D22C0524600CB664D /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
 		DF15EC4022C052B300CB664D /* GoalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalRow.swift; sourceTree = "<group>"; };
 		DF15EC4422C0F52200CB664D /* AddGoalName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalName.swift; sourceTree = "<group>"; };
+		DF15EC4622C0F83F00CB664D /* AddGoalKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalKind.swift; sourceTree = "<group>"; };
+		DF15EC4822C0FA6000CB664D /* AddGoalCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalCounter.swift; sourceTree = "<group>"; };
+		DF15EC4A22C0FBB600CB664D /* AddGoalsMilestones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalsMilestones.swift; sourceTree = "<group>"; };
+		DF15EC4C22C0FCB800CB664D /* AddGoalDeadline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalDeadline.swift; sourceTree = "<group>"; };
 		DF3E409922B12FBD005B3BEF /* Knolls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knolls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3E409C22B12FBD005B3BEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF3E409E22B12FBD005B3BEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +121,10 @@
 			isa = PBXGroup;
 			children = (
 				DF15EC4422C0F52200CB664D /* AddGoalName.swift */,
+				DF15EC4622C0F83F00CB664D /* AddGoalKind.swift */,
+				DF15EC4822C0FA6000CB664D /* AddGoalCounter.swift */,
+				DF15EC4A22C0FBB600CB664D /* AddGoalsMilestones.swift */,
+				DF15EC4C22C0FCB800CB664D /* AddGoalDeadline.swift */,
 			);
 			path = AddGoal;
 			sourceTree = "<group>";
@@ -314,11 +326,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF15EC4522C0F52200CB664D /* AddGoalName.swift in Sources */,
+				DF15EC4D22C0FCB800CB664D /* AddGoalDeadline.swift in Sources */,
+				DF15EC4B22C0FBB600CB664D /* AddGoalsMilestones.swift in Sources */,
 				DF3E409D22B12FBD005B3BEF /* AppDelegate.swift in Sources */,
 				DF15EC4122C052B300CB664D /* GoalRow.swift in Sources */,
 				DF3E409F22B12FBD005B3BEF /* SceneDelegate.swift in Sources */,
+				DF15EC4922C0FA6000CB664D /* AddGoalCounter.swift in Sources */,
 				DF3E40A422B12FBD005B3BEF /* ContentView.swift in Sources */,
 				DF15EC3E22C0524600CB664D /* Goal.swift in Sources */,
+				DF15EC4722C0F83F00CB664D /* AddGoalKind.swift in Sources */,
 				DF3E40A222B12FBD005B3BEF /* Knolls.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
